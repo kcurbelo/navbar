@@ -1,0 +1,157 @@
+p {
+	background-color: green;
+}
+
+body {
+	background-color: #E7E9EC;
+}
+
+
+ul {
+	width: 33.333%;
+	height: 40px;
+	margin: 0 auto;
+	/*background-color: pink;*/
+	font-size: 0;
+	padding: 8px 0 0 0;
+	/* Add a class that will float these items left or make the ul more spacific*/
+	float: left;
+}
+
+li {
+	width: 16.6667%;
+	display: inline-block;
+}
+
+nav {
+	background-color: #5A5A5A;
+	box-shadow: 0px 3px 5px #8D8D8D;
+}
+
+.hidden {
+   position: absolute !important;
+   top: -9999px !important;
+   left: -9999px !important;
+}
+
+.iconMove {
+	margin-left: 16.6667%;
+}
+
+#mainCont {
+	/*background-color: darkgrey;*/
+	height: 40px;
+	width: 85%;
+}
+
+#logoCont {
+	width: 33.3333%;
+	height: 40px;
+	margin: 0 auto;
+	float: left;
+	/*background-color: yellow;*/
+}
+
+#searchCont {
+	width: 33.3333%;
+    height: 40px;
+	margin: 0 auto;
+	float: left;
+}
+
+#logo {
+	display: block;
+	width: 100px;
+	margin: 9px auto 0 auto;
+}
+
+#searchBar {
+	display: block;
+	width: 70%;
+	height: 25px;
+	margin: 6px auto;
+	border: 0;
+	border-radius: 2px 0px 0px 2px;
+	float: left;
+}
+
+#searchButton {
+	display: initial;
+	height: 27px;
+	border: 0;
+	border-radius: 0px 2px 2px 0px;
+	margin: 6px auto;
+	background-color: white;
+}
+
+.searchIcon{
+	width: 17px;
+	height: 17px;
+	margin-top: 2px;
+	color: #CCCCCC;
+}
+
+#iconsCont {
+	width: 33.3333%;
+	height: 40px;
+	margin: 0 auto;
+	/*background-color: pink;*/
+	font-size: 0;
+	float: left;
+}
+
+.iconSpacing {
+	width: 16.6667%;
+	display: inline-block;
+	/*background-color: beige;*/
+}
+
+.navIcons {
+  display: block;
+  height: 18px;
+  position: relative;
+  width: 18px;
+  margin: 0 auto;
+  padding: 11px;
+}
+
+.matches {
+	background: url('images/matches.png');
+	background-repeat:no-repeat;
+	background-size: 19px 17px;
+}
+.messages {
+	background: url('images/search2.png');
+	background-repeat:no-repeat;
+	background-size: 19px 17px;
+}
+.notifications {
+	background: url('images/notifications.png');
+	background-repeat:no-repeat;
+	background-size: 17px 17px;
+}
+.saved {
+	background: url('images/saved.png');
+	background-repeat:no-repeat;
+	background-size: 17px 17px;
+}
+.search {
+	background: url('images/search.png');
+	background-repeat:no-repeat;
+	background-size: 19px 17px;
+}
+.other {
+	background: url('images/other.png');
+	background-repeat:no-repeat;
+	background-size: 19px 17px;
+}
+
+.matchez {
+  display: block;
+  height: 25px;
+  position: relative;
+  width: 25px;
+  margin: 0 auto;
+  padding: 0px;
+  margin-top: 3px;
+}
