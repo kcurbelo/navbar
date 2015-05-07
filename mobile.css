@@ -1,95 +1,75 @@
-
-
+/* Sets up the background color*/
 body {
 	background-color: #E7E9EC;
 }
 
-nav {
+/* Sets the navbar background color and dropshadow*/
+#navBG {
 	background-color: #FF9000;
 	box-shadow: 0px 3px 5px #8D8D8D;
 }
 
-ul {
+/* Holds all the nav buttons*/
+#navCont {
 	width: 100%;
-	height: 40px;
+	height: 34px;
 	margin: 0 auto;
-	/*background-color: pink;*/
 	font-size: 0;
 	padding: 0 0 0 0;
 }
 
-li {
+/* Spacing and display style for each list item*/
+.navLI {
 	width: 16.6667%;
 	display: inline-block;
 }
 
+/* Hides logo until resized*/
 #logo {
 	display: none;
 }
-
+/* Hides searchbar until resized*/
 #searchBar {
 	display: none;
 }
-
+/* Hides searchicon until resized*/
 #searchButton {
 	display: none;
 }
-
-#iconsCont {
-	width: 100%;
-	height: 40px;
-	margin: 0 auto;
-	/*background-color: pink;*/
-	font-size: 0;
-}
-
-.iconSpacing {
-	width: 16.6667%;
-	display: inline-block;
-	/*background-color: beige;*/
-}
-
-.navIcons {
-  display: block;
-  height: 22px;
-  position: relative;
-  width: 22px;
-  margin: 0 auto;
-  padding: 18px;
-}
-
+/* Sets the icons. Used so that way I could swtich out the icons depending on media quiery*/
 .matches {
 	background: url('images/matchesOrange.svg');
 	background-repeat:no-repeat;
-	background-size: 20px 20px;
+	background-size: 17px 17px;
 }
 .messages {
-	background: url('images/matchesOrange.png');
+	background: url('images/messagesOrange.svg');
 	background-repeat:no-repeat;
-	background-size: 20px 20px;
+	background-size: 17px 17px;
 }
 .notifications {
-	background: url('images/notificationsOrange.png');
+	background: url('images/notificationsOrange.svg');
 	background-repeat:no-repeat;
-	background-size: 20px 20px;
+	background-size: 17px 17px;
 }
 .saved {
-	background: url('images/savedOrange.png');
+	background: url('images/savedOrange.svg');
 	background-repeat:no-repeat;
-	background-size: 20px 20px;
+	background-size: 17px 17px;
 }
 .search {
-	background: url('images/searchOrange.png');
+	background: url('images/searchOrange.svg');
 	background-repeat:no-repeat;
-	background-size: 20px 20px;
+	background-size: 17px 17px;
 }
 .other {
-	background: url('images/otherOrange.png');
+	background: url('images/otherOrange.svg');
 	background-repeat:no-repeat;
-	background-size: 20px 20px;
+	background-size: 17px 17px;
 }
 
-.matchez {
+/* Positions the icons relative to the navbar*/
+.iconPosition {
   display: block;
   height: 25px;
   position: relative;
@@ -97,8 +77,4 @@ li {
   margin: 0 auto;
   padding: 0px;
   margin-top: 9px;
-}
-
-.inline-block-list { /* ul or ol with this class */
-	font-size: 0;
 }
